@@ -45,7 +45,6 @@ model Restaurante {
   @@map("restaurantes")
 }
 
-
 model Plato {
   id        Int      @id @default(autoincrement())
   nombre_plato   String
