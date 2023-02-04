@@ -67,4 +67,3 @@ model Comentario {
   restaurante_id Int
  @@map("comentarios")
 }
-
