@@ -10,9 +10,6 @@ const prisma = new PrismaClient();
 
 
 
-
-
-
 /*Creacion de Usuarios */
 export const CrearUsuario = async (req: Request, res: Response): Promise<void> => {
   try {
