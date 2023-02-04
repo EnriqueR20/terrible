@@ -15,11 +15,11 @@ datasource db {
 model Usuario {
   id           Int        @id @default(autoincrement())
   nombre       String
-  dni          String
-  telefono     String
+  dni          Int
+  telefono     Int
   correo       String     @unique
   contrasena     String
-  es_propietario    String
+  es_propietario    Boolean @default(true)
   restaurante Restaurante[]
   @@map("usuarios")
 }
